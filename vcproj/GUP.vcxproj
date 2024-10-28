@@ -164,16 +164,12 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <PostBuildEvent>
-      <Command>copy ..\src\change.log ..\bin\change.log
-copy ..\resources\updater.ico ..\bin\updater.ico
+      <Command>copy ..\resources\updater.ico ..\bin\updater.ico
 copy ..\src\ConfigFiles\gup.xml ..\bin\gup.xml
 copy ..\src\ConfigFiles\getDownLoadUrl.php ..\bin\getDownLoadUrl.php
-copy ..\LICENSE ..\bin\LICENSE
-copy ..\README.md ..\bin\README.md
 copy ..\curl\builds\libcurl-vc-x86-release-dll-ipv6-sspi-schannel\bin\libcurl.dll ..\bin\libcurl.dll
 copy ..\src\translations\korean.xml ..\bin\translations\
-del ..\bin\GUP.iobj
-del ..\bin\GUP.ipdb</Command>
+</Command>
     </PostBuildEvent>
     <PreLinkEvent>
       <Command>
