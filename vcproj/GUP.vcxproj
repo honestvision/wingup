@@ -170,8 +170,8 @@ copy ..\src\ConfigFiles\gup.xml ..\bin\gup.xml
 copy ..\src\ConfigFiles\getDownLoadUrl.php ..\bin\getDownLoadUrl.php
 copy ..\LICENSE ..\bin\LICENSE
 copy ..\README.md ..\bin\README.md
-copy ..\curl\builds\libcurl-vc15-x86-release-dll-ipv6-sspi-schannel\bin\libcurl.dll ..\bin\libcurl.dll
-xcopy ..\src\translations ..\bin\translations\ /S /Y /E
+copy ..\curl\builds\libcurl-vc-x86-release-dll-ipv6-sspi-schannel\bin\libcurl.dll ..\bin\libcurl.dll
+copy ..\src\translations\korean.xml ..\bin\translations\
 del ..\bin\GUP.iobj
 del ..\bin\GUP.ipdb</Command>
     </PostBuildEvent>
