@@ -168,7 +168,7 @@
 copy ..\src\ConfigFiles\gup.xml ..\bin\gup.xml
 copy ..\src\ConfigFiles\getDownLoadUrl.php ..\bin\getDownLoadUrl.php
 copy ..\curl\builds\libcurl-vc-x86-release-dll-ipv6-sspi-schannel\bin\libcurl.dll ..\bin\libcurl.dll
-copy ..\src\translations\korean.xml ..\bin\translations\
+copy ..\src\translations\korean.xml ..\bin\nativeLang.xml
 </Command>
     </PostBuildEvent>
     <PreLinkEvent>
